@@ -1,11 +1,29 @@
-<div align="center">
+# 100円レジ (100 Yen Regi) 🛒
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+学校の授業や子供の遊びで使える、シンプルな100円ショップごっこ用レジアプリです。
 
-  <h1>Built with AI Studio</h2>
+## ✨ 特徴
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+*   **バーコードスキャン**: カメラで実際のバーコードを読み取れます。
+*   **音声読み上げ**: 「ひゃくじゅうえん」と音声で価格を読み上げます。
+*   **自動計算**: スキャンした個数と合計金額（税込110円計算）を自動で計算します。
+*   **登録不要**: ブラウザだけで動作し、個人情報の登録は不要です。
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## 🛠 技術スタック
 
-</div>
+*   **Framework**: React 19
+*   **Styling**: Tailwind CSS
+*   **Barcode Scanning**: html5-qrcode
+*   **Icons**: Lucide React
+
+## 使い方
+
+1.  「レジをはじめる」ボタンを押します。
+2.  カメラと音声の許可を求められたら「許可」を選択してください。
+3.  商品のバーコードをカメラに映すと、自動でスキャンされます。
+4.  「お支払いへ」ボタンを押すと、合計金額が表示されます。
+
+## 注意事項
+
+*   このアプリは実際の金銭取引には使用できません。あくまで遊びや学習用です。
+*   iOS/Androidの標準ブラウザ（Safari/Chrome）での動作を推奨します。

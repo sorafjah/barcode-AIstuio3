@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <title>100円レジ</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Prevent pull-to-refresh on mobile to keep the app feeling like a native tool */
+      body {
+        overscroll-behavior-y: contain;
+        touch-action: manipulation;
+        font-family: 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "lucide-react": "https://esm.sh/lucide-react@^0.564.0",
+    "html5-qrcode": "https://esm.sh/html5-qrcode@^2.3.8"
+  }
+}
+</script>
+</head>
+  <body class="bg-yellow-50 text-gray-800 h-screen w-screen overflow-hidden">
+    <div id="root" class="h-full w-full"></div>
+  </body>
+</html>

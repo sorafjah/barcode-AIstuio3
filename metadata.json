@@ -1,0 +1,7 @@
+{
+  "name": "100 Yen Regi - Kids Cash Register",
+  "description": "A simple, fun cash register app for kids. Scans barcodes, plays sounds, and calculates totals for 100-yen shop play.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
